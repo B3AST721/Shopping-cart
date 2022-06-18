@@ -1,9 +1,11 @@
 import bootstrap from '/home/jaheel/Shopping-cart/src/images/bootstrap.svg';
+import Bag from '/home/jaheel/Shopping-cart/src/images/bag-fill.svg';
+import Cart from '/home/jaheel/Shopping-cart/src/images/cart-fill.svg';
 
 function App() {
   return (
     <div className="App">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
       <a class="navbar-brand" href="#">
         <img src={bootstrap} width='30' height='30' alt='' />
       </a>
@@ -14,29 +16,16 @@ function App() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link d-flex align-items-center" href="#"><img className='mr-2' src={Bag} width='25' height='25' alt='' /> Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link d-flex align-items-center" href="#"><img className='mr-2' src={Cart} width='25' height='25' alt='' /> Cart</a>
           </li>
         </ul>
       </div>
     </nav>
     </div>
+    
   );
 }
 
