@@ -16,8 +16,9 @@ function Home() {
     <section className='bg-dark'>
       <NavBar />
       <HomeContainer>
-        <h2 className='font-weight-bold'>Come for the phone,<br></br>stay for the price.</h2>
-        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Shop Now!</a>
+        <h2 className='font-weight-bold text-light'>Come for the <h2 className='d-inline text-primary'>phone</h2>,<br></br>stay for the <h2 className='d-inline text-primary'>price</h2>.</h2>
+        <br></br>
+        <a href="#shop" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Shop Now!</a>
       </HomeContainer>
     </section>
   )
