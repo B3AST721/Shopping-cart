@@ -17,7 +17,7 @@ function NavBar() {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link d-flex align-items-center" href="#"><img className='mr-2' src={Bag} width='25' height='25' alt='' /> Shop</a>
+            <a class="nav-link d-flex align-items-center" href="#store"><img className='mr-2' src={Bag} width='25' height='25' alt='' /> Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link d-flex align-items-center" href="#"><img className='mr-2' src={Cart} width='25' height='25' alt='' /> Cart</a>
